@@ -1,0 +1,59 @@
+<div class="container">
+      <div class="container">
+        <h2 class="text-center">Ingrese su productos</h2>
+        <form onsubmit="return addPr()">
+          <div class="form row mt-3 justify-content-center text-center">
+            <div class="col-8 col-md-4">
+              <div class="my-3">
+                <label class="input px-4">Nombre</label>
+                <input type="text" name="title" id="title">
+              </div>
+              <div class="my-3">
+                <label class="input px-5">Precio</label>
+                <input type="number" name="price" id="price">
+              </div>
+              <div class="my-3">
+                <label class="input px-4">Foto URL</label>
+                <input type="text" name="thumbnail" id="thumbnail">
+              </div>
+              <input class="btn btn-success my-3" type="submit" value="Enviar">
+              <a class="btn btn-secondary" role="button" href="/">Volver al Home</a>
+            </div>
+          </div>
+        </form>
+      </div>
+      <hr>
+      <h2>Lista de productos con Hbs</h2>
+      {{#if check}}
+      <h3 class="p-3">No se encontraron productos :(</h3>
+      {{else}}
+      <div className="container">
+        <table className="text-center">
+          <thead>
+            <tr>
+              <th>Nombre</th>
+              <th>Precio</th>
+              <th>Foto URL</th>
+            </tr>
+          </thead>
+          <tbody id="tableProds">
+    
+          </tbody>
+        </table>
+      </div>
+      {{/if}}
+    
+      <a class="btn btn-warning" role="button" href="/">Volver al inicio</a>
+    </div>
+    <hr>
+    <div class="row mt-3 justify-content-center text-center">
+      <h2>Chat libre</h2>
+      <form onsubmit="return addMessage(this)">
+        <label class="input px-4">Tu perfil -></label>
+        <input type="email" id="email" placeholder="email.." name="email" class="px-5 mx-5">
+        <div id="contenedor"></div>
+        <input type="text" id="text" placeholder="chatea.." name="text" class="px-5 mx-5">
+        <input type="submit" class="btn btn-success" value="Enviar">
+      </form>
+    </div>
+</div>

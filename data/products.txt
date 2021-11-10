@@ -1,0 +1,120 @@
+[
+  {
+    "id": 1,
+    "title": "Conor Java 29 2021",
+    "descriptionPrimary": "Bicicleta de aluminio Conor Java 29, de asistencia eléctrica al pedaleo con batería de 504 Wh.",
+    "price": 1.54,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bicimtb.jpeg?alt=media&token=53bdeedc-5c34-4c95-ba2e-a74ac1bb1b37"
+  },
+  {
+    "id": 2,
+    "title": "Specialized Turbo Levo HT 29 2021",
+    "descriptionPrimary": "Bicicleta de aluminio Turbo Levo HT, de asistencia eléctrica al pedaleo con motor Specialized 1.2 E.",
+    "price": 2.899,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bicimtb2.jpg?alt=media&token=0e336ffc-f77a-48ae-a3d9-746aa7cd5316"
+  },
+  {
+    "id": 3,
+    "title": "GT Epantera Dash 29 2020",
+    "descriptionPrimary": "La Pantera GT-E presenta un estilo icónico Triple Triangle ™ y la asistencia de Shimano STePS.",
+    "price": 2.499,
+    "thumbnail": ".https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bicimtb3.jpg?alt=media&token=b03a1d70-c9c9-425f-84a7-4022d6e63cee"
+  },
+  {
+    "id": 4,
+    "title": "Ghost E-Teru Essential 27 2021",
+    "descriptionPrimary": "La bicicleta con cuadro de aluminio E-Teru Essential, es de asistencia eléctrica al pedaleo tiene batería Bosch de 500 Wh.",
+    "price": 2.399,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bicimtb4.png?alt=media&token=c69bf090-10a8-498c-8dfd-d34626e21a8c"
+  },
+  {
+    "id": 5,
+    "title": "Conor Nepal E-Mtb 27,5 2022",
+    "descriptionPrimary": "Bicicleta de asistencia eléctrica al pedaleo Nepal E-Mtb 27,5, viene equipada con Motor BAFANG RM 250 y batería dede 504 Wh, para uso Recreativo.",
+    "price": 1.55,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bicimtb5.jpg?alt=media&token=d1d8575b-8ea3-4bab-abae-57ba5953ae72"
+  },
+  {
+    "id": 6,
+    "title": "Xiaomi Qicycle XL Electric Bike",
+    "descriptionPrimary": "La bicicleta eléctrica Xiaomi QiCycle XL es una bicicleta 100% eléctrica ideal para tus desplazamientos.",
+    "price": 899,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bici-electrica.jpg?alt=media&token=440e8848-0a87-4b82-908a-aed67dbe1f19"
+  },
+  {
+    "id": 7,
+    "title": "BH Atom Street 2021",
+    "descriptionPrimary": "Bicicleta de aluminio Atom Street de asistencia eléctrica al pedaleo con batería de 500 Wh.",
+    "price": 2.049,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bici-electrica2.jpg?alt=media&token=520ac97a-5247-4e30-9821-793273946a61"
+  },
+  {
+    "id": 8,
+    "title": "SixBikes ESB-68 Falcon",
+    "descriptionPrimary": "Bicicleta eléctrica urbana con cuadro de aluminio y ruedas de 700 x 35.",
+    "price": 2.3,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bici-electrica3.jpg?alt=media&token=b100fb7d-428c-4834-8f6c-c32f4e543618"
+  },
+  {
+    "id": 9,
+    "title": "SixBikes ESB-65",
+    "descriptionPrimary": "Bicicleta plegable de aluminio SixBikes Esb-65 (20 x 2.35) de asistencia eléctrica al pedaleo, para uso Urbano.",
+    "price": 1.55,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bici-electrica4.jpg?alt=media&token=7db12d1c-61fc-4e8a-8c5f-a0a220c5bac7"
+  },
+  {
+    "id": 10,
+    "title": "Littium Ibiza Dogma 10,4A 2021",
+    "descriptionPrimary": "Bicicleta plegable Littium Ibiza Dogma, de asistencia eléctrica al pedaleo con batería de 14A, manejable, ágil, cómoda",
+    "price": 1.89,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bici-electrica5.jpg?alt=media&token=192f1a47-d530-49d4-b13d-c30958dee8cc"
+  },
+  {
+    "id": 11,
+    "title": "Bergamont E-Horizon Tour 400 Wave 2021",
+    "descriptionPrimary": "Bicicleta de aluminio E-Horizon Tour 400 Wave, de asistencia eléctrica al pedaleo con batería Bosch de 400 Wh.",
+    "price": 2.499,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bici-electrica6.jpg?alt=media&token=6ef0245a-15ba-4b4c-9d43-cb8836362a8d"
+  },
+  {
+    "id": 12,
+    "title": "Ryme Bikes Soho 28",
+    "descriptionPrimary": "Bicicleta de ocio con guardabarros y parrilla incorporados.",
+    "price": 342,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bici-de-paseo.jpg?alt=media&token=52c65044-4cf9-4ef8-b49d-0513cd29008e"
+  },
+  {
+    "id": 13,
+    "title": "Megamo Ronda 28 2021",
+    "descriptionPrimary": "Bicicleta Megamo Ronda con ruedas de 28, cambio Shimano de 6 velocidades y horquilla rígida para uso Urbano.",
+    "price": 259,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bici-de-paseo2.png?alt=media&token=2c7d3b95-c31f-40f9-9bc0-0fa603aebbcd"
+  },
+  {
+    "id": 14,
+    "title": "Conor Milano 28 2021",
+    "descriptionPrimary": "Bicicleta eléctrica urbana con cuadro de aluminio y ruedas de 700 x 35.",
+    "price": 395,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bici-de-paseo3.jpg?alt=media&token=7080dc7d-cc55-45c8-9ebe-9e57e3c052c5"
+  },
+  {
+    "id": 15,
+    "title": "Conor City 24S 2021",
+    "descriptionPrimary": "Bicicleta de aluminio Conor City con cambio Shimano de 3X8 velocidades y frenos V-Brake para uso Urbano.",
+    "price": 449,
+    "thumbnail": "https://firebasestorage.googleapis.com/v0/b/e-commerce-reactjs-2021.appspot.com/o/bici-de-paseo4.jpeg?alt=media&token=8408e6e8-6eda-416b-8ae8-5724f67af999"
+  },
+  {
+    "id": 16,
+    "price": "",
+    "title": "",
+    "thumbnail": "",
+    "info": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quasi adipisci eum iusto quaerat eius corporis dolorem totam, nisi eveniet possimus ratione impedit repudiandae libero placeat corrupti. Earum sapiente temporibus nesciunt!;Lorem ipsum dolor, sit amet consectetur adipisicing elit."
+  },
+  {
+    "title": "prueba",
+    "price": "123",
+    "thumbnail": "fotoprueba.png",
+    "id": 17
+  }
+]
