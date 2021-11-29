@@ -1,8 +1,12 @@
 const express = require("express");
 const app = express();
 const productsRoutes = require("./routes/products");
+const usersRoutes = require("./routes/users");
 const handlebars = require("express-handlebars");
 const fs = require("fs");
+
+//Knex
+const knex = require("./db");
 
 // Server
 const http = require("http");
@@ -13,6 +17,7 @@ const port = process.env.PORT || 8080;
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use("/products", productsRoutes);
+app.use("/users", usersRoutes);
 
 // Motores de plantillas >> Hbs
 app.set("views", "./views");
@@ -56,8 +61,18 @@ io.on("connection", (socket) => {
         io.sockets.emit("message_msn", dataFile);
       });
     });
+    //Knex
+    knex("users") //que tabla uso
+      .insert(dataObj)
+      .then(() => {
+        console.log("Texto enviado!");
+      })
+      .catch((err) => {
+        console.log("Error al enviar");
+      });
   });
 
+  //Creo nuevo producto
   socket.on("newProd", (dataObj) => {
     fs.readFile("./data/products.txt", "utf-8", (err, data) => {
       let dataFile = JSON.parse(data);
@@ -80,6 +95,14 @@ io.on("connection", (socket) => {
         }
       );
     });
+    knex("products") //que tabla uso
+      .insert(dataObj)
+      .then(() => {
+        res.send("Producto guardado!");
+      })
+      .catch((err) => {
+        res.send("Error al guardar");
+      });
   });
   socket.on("Confirm", () => {
     console.log("Actualizado");
@@ -88,6 +111,10 @@ io.on("connection", (socket) => {
 
 app.get("/", (req, res) => {
   res.render(__dirname + "/views/main.hbs");
+});
+
+app.get("/prYuser", (req, res) => {
+  res.render("prYuser");
 });
 
 server.listen(port, () => {
