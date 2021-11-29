@@ -5,7 +5,7 @@ const usersRoutes = require("./routes/users");
 const handlebars = require("express-handlebars");
 const fs = require("fs");
 
-//Knex
+//Trae Knex
 const knex = require("./db");
 
 // Server
@@ -112,7 +112,7 @@ io.on("connection", (socket) => {
 app.get("/", (req, res) => {
   res.render(__dirname + "/views/main.hbs");
 });
-
+//productos y chat
 app.get("/prYuser", (req, res) => {
   res.render("prYuser");
 });
